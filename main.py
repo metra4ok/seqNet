@@ -12,8 +12,8 @@ from tensorboardX import SummaryWriter
 import numpy as np
 import sys
 
-from get_datasets import get_dataset, get_splits, prefix_data
-from get_models import get_model
+from seqnet.get_datasets import get_dataset, get_splits, prefix_data
+from seqnet.get_models import get_model
 from train import train
 from test import test
 

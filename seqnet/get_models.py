@@ -3,7 +3,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from os.path import join, isfile
-import seqNet
+
+
+from . import seqNet
 
 class Flatten(nn.Module):
     def forward(self, input):

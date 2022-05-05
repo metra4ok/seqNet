@@ -1,8 +1,9 @@
-from datasets import Dataset
 from torch.utils.data import DataLoader, SubsetRandomSampler
 import numpy as np
 from os.path import join
 from itertools import product
+
+from seqnet.datasets import Dataset
 
 prefix_data = "./data/"
 
